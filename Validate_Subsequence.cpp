@@ -6,7 +6,6 @@ bool isValidSubsequence(vector<int> array, vector<int> sequence) {
 
   int first = 0;
   int second = 0;
-  bool var = true;
   while(first < array.size() && second < sequence.size()){  // second should be also included in while condition
     if(array[first] != sequence[second]){    // when we cover the sequence array while loop sill run causing to return false
       first = first + 1;
