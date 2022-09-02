@@ -21,3 +21,5 @@ vector<int> twoNumberSum(vector<int> array, int targetSum) {
   }
   return {}; // if the while loop is skipped we return empty array
 }
+
+//Updated the commits
